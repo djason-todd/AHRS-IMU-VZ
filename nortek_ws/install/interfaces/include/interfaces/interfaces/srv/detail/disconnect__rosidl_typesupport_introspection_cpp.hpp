@@ -1,1 +1,0 @@
-/home/frfusera/ros2_ws/nortek_ws/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/disconnect__rosidl_typesupport_introspection_cpp.hpp

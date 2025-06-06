@@ -1,3 +1,0 @@
-nucleus_clients
-nucleus_node
-nucleus_subscribers

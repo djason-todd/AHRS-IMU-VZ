@@ -1,1 +1,0 @@
-/home/frfusera/ros2_ws/nortek_ws/build/interfaces/rosidl_generator_c/interfaces/msg/detail/altimeter__struct.h

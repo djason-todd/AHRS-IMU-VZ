@@ -1,9 +1,0 @@
-from interfaces.msg._ahrs import AHRS  # noqa: F401
-from interfaces.msg._altimeter import Altimeter  # noqa: F401
-from interfaces.msg._bottom_track import BottomTrack  # noqa: F401
-from interfaces.msg._current_profile import CurrentProfile  # noqa: F401
-from interfaces.msg._field_calibration import FieldCalibration  # noqa: F401
-from interfaces.msg._imu import IMU  # noqa: F401
-from interfaces.msg._ins import INS  # noqa: F401
-from interfaces.msg._magnetometer import Magnetometer  # noqa: F401
-from interfaces.msg._water_track import WaterTrack  # noqa: F401
