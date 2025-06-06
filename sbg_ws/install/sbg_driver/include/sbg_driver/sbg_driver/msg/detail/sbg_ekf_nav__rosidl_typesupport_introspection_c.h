@@ -1,1 +1,0 @@
-/home/frfusera/ros2_ws/sbg_ws/build/sbg_driver/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_ekf_nav__rosidl_typesupport_introspection_c.h

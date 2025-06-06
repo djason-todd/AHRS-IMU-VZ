@@ -1,1 +1,0 @@
-/home/frfusera/ros2_ws/sbg_ws/build/sbg_driver/rosidl_generator_cpp/sbg_driver/msg/sbg_ekf_euler.hpp

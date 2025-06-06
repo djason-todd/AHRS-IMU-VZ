@@ -1,1 +1,0 @@
-/home/frfusera/ros2_ws/sbg_ws/build/sbg_driver/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_status_com__rosidl_typesupport_fastrtps_c.h

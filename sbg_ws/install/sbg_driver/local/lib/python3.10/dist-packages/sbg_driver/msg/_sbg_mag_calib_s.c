@@ -1,1 +1,0 @@
-/home/frfusera/ros2_ws/sbg_ws/build/sbg_driver/rosidl_generator_py/sbg_driver/msg/_sbg_mag_calib_s.c

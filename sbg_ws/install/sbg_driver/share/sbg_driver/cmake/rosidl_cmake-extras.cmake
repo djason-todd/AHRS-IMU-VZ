@@ -1,1 +1,0 @@
-/home/frfusera/ros2_ws/sbg_ws/build/sbg_driver/rosidl_cmake/rosidl_cmake-extras.cmake

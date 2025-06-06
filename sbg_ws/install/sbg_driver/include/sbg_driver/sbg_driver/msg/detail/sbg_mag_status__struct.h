@@ -1,1 +1,0 @@
-/home/frfusera/ros2_ws/sbg_ws/build/sbg_driver/rosidl_generator_c/sbg_driver/msg/detail/sbg_mag_status__struct.h

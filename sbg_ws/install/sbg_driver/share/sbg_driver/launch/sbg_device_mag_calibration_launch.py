@@ -1,1 +1,0 @@
-/home/frfusera/ros2_ws/sbg_ws/src/sbg_ros2_driver/launch/sbg_device_mag_calibration_launch.py
