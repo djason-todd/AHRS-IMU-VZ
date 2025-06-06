@@ -1,3 +1,0 @@
-[console_scripts]
-sbg_imu_bridge = sbg_imu_bridge.sbg_imu_bridge:main
-

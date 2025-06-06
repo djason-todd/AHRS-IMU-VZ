@@ -1,6 +1,0 @@
-setup.py
-sbg_driver/__init__.py
-sbg_driver.egg-info/PKG-INFO
-sbg_driver.egg-info/SOURCES.txt
-sbg_driver.egg-info/dependency_links.txt
-sbg_driver.egg-info/top_level.txt
