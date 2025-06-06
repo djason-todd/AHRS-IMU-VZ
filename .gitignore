@@ -1,2 +1,4 @@
 log/
 nortek_ws/
+sbg_ws/log/
+sbg_ws/build/
