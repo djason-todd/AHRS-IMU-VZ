@@ -1,0 +1,1 @@
+/home/frfusera/ros2_ws/nortek_ws/build/interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake

@@ -1,0 +1,1 @@
+/home/frfusera/ros2_ws/nortek_ws/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/magnetometer__rosidl_typesupport_fastrtps_cpp.hpp

@@ -1,0 +1,53 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from interfaces/msg/IMU.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module interfaces {
+  module msg {
+    struct IMU {
+      builtin_interfaces::msg::Time system_timestamp;
+
+      boolean posix_time;
+
+      uint32 timestamp;
+
+      uint32 microseconds;
+
+      boolean is_valid;
+
+      boolean has_data_path_overrun;
+
+      boolean has_flash_update_failure;
+
+      boolean has_spi_com_error;
+
+      boolean has_low_voltage;
+
+      boolean has_sensor_failure;
+
+      boolean has_memory_failure;
+
+      boolean has_gyro_1_failure;
+
+      boolean has_gyro_2_failure;
+
+      boolean has_accelerometer_failure;
+
+      float accelerometer_x;
+
+      float accelerometer_y;
+
+      float accelerometer_z;
+
+      float gyro_x;
+
+      float gyro_y;
+
+      float gyro_z;
+
+      float temperature;
+    };
+  };
+};

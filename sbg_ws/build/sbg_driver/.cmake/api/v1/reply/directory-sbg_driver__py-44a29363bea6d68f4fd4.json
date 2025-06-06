@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "sbg_driver__py",
+		"source" : "/home/frfusera/ros2_ws/sbg_ws/build/sbg_driver/sbg_driver__py"
+	}
+}

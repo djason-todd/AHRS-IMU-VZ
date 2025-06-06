@@ -1,0 +1,2 @@
+string host
+string password

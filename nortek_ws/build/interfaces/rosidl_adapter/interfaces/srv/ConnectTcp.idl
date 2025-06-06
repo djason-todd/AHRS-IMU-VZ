@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interfaces/srv/ConnectTcp.srv
+// generated code does not contain a copyright notice
+
+
+module interfaces {
+  module srv {
+    struct ConnectTcp_Request {
+      string host;
+
+      string password;
+    };
+    struct ConnectTcp_Response {
+      boolean status;
+    };
+  };
+};

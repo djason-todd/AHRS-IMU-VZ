@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/frfusera/ros2_ws/sbg_ws/build/sbg_driver/sbg_device" "/home/frfusera/ros2_ws/sbg_ws/build/sbg_driver/sbg_device_mag" "TARGETS" "sbg_device" "sbg_device_mag" "DESTINATION" "lib/sbg_driver")

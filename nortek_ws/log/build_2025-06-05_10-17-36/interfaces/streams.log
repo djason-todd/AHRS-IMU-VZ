@@ -1,0 +1,609 @@
+[0.009s] Invoking command in '/home/frfusera/ros2_ws/nortek_ws/build/interfaces': CMAKE_PREFIX_PATH=/home/frfusera/ros2_ws/install/nucleus_driver_ros2:/opt/ros/humble /usr/bin/cmake /home/frfusera/ros2_ws/nortek_ws/nucleus_driver_ros2/ros2/src/interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/frfusera/ros2_ws/nortek_ws/install/interfaces
+[0.050s] -- The C compiler identification is GNU 11.4.0
+[0.089s] -- The CXX compiler identification is GNU 11.4.0
+[0.093s] -- Detecting C compiler ABI info
+[0.148s] -- Detecting C compiler ABI info - done
+[0.153s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.153s] -- Detecting C compile features
+[0.153s] -- Detecting C compile features - done
+[0.155s] -- Detecting CXX compiler ABI info
+[0.207s] -- Detecting CXX compiler ABI info - done
+[0.212s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.213s] -- Detecting CXX compile features
+[0.213s] -- Detecting CXX compile features - done
+[0.214s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.319s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.357s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.371s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.424s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.425s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.428s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.447s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.462s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.659s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.780s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.933s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.949s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.949s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.965s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.965s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.965s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.965s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.979s] -- Found PythonExtra: .so  
+[1.007s] -- Added test 'lint_cmake' to check CMake code style
+[1.008s] -- Added test 'xmllint' to check XML markup files
+[1.010s] -- Configuring done
+[1.040s] -- Generating done
+[1.047s] -- Build files have been written to: /home/frfusera/ros2_ws/nortek_ws/build/interfaces
+[1.056s] Invoked command in '/home/frfusera/ros2_ws/nortek_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/home/frfusera/ros2_ws/install/nucleus_driver_ros2:/opt/ros/humble /usr/bin/cmake /home/frfusera/ros2_ws/nortek_ws/nucleus_driver_ros2/ros2/src/interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/frfusera/ros2_ws/nortek_ws/install/interfaces
+[1.056s] Invoking command in '/home/frfusera/ros2_ws/nortek_ws/build/interfaces': CMAKE_PREFIX_PATH=/home/frfusera/ros2_ws/install/nucleus_driver_ros2:/opt/ros/humble /usr/bin/cmake --build /home/frfusera/ros2_ws/nortek_ws/build/interfaces -- -j22 -l22
+[1.094s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.099s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.108s] [  0%] Built target ament_cmake_python_symlink_interfaces
+[1.252s] running egg_info
+[1.252s] creating interfaces.egg-info
+[1.253s] writing interfaces.egg-info/PKG-INFO
+[1.253s] writing dependency_links to interfaces.egg-info/dependency_links.txt
+[1.253s] writing top-level names to interfaces.egg-info/top_level.txt
+[1.253s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[1.254s] reading manifest file 'interfaces.egg-info/SOURCES.txt'
+[1.255s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[1.276s] [  0%] Built target ament_cmake_python_build_interfaces_egg
+[1.902s] [  1%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/start__functions.c.o[0m
+[1.902s] [  2%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/connect_tcp__functions.c.o[0m
+[1.902s] [  2%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/altimeter__functions.c.o[0m
+[1.902s] [  2%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/stop__functions.c.o[0m
+[1.903s] [  3%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/ahrs__functions.c.o[0m
+[1.903s] [  4%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/connect_serial__functions.c.o[0m
+[1.903s] [  4%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/disconnect__functions.c.o[0m
+[1.904s] [  6%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/magnetometer__functions.c.o[0m
+[1.904s] [  6%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/field_calibration__functions.c.o[0m
+[1.904s] [  9%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/imu__functions.c.o[0m
+[1.904s] [  9%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/current_profile__functions.c.o[0m
+[1.904s] [  9%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/start_field_calibration__functions.c.o[0m
+[1.904s] [  9%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/water_track__functions.c.o[0m
+[1.905s] [ 10%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/command__functions.c.o[0m
+[1.905s] [ 10%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/ins__functions.c.o[0m
+[1.905s] [ 11%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/bottom_track__functions.c.o[0m
+[1.967s] [ 12%] [32m[1mLinking C shared library libinterfaces__rosidl_generator_c.so[0m
+[1.992s] [ 12%] Built target interfaces__rosidl_generator_c
+[2.000s] [ 13%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.000s] [ 14%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.001s] [ 15%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.045s] [ 15%] Built target interfaces__cpp
+[2.052s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.053s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.053s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.538s] [ 17%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/start__type_support.cpp.o[0m
+[2.538s] [ 18%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/ahrs__type_support.cpp.o[0m
+[2.539s] [ 19%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/current_profile__type_support.cpp.o[0m
+[2.539s] [ 20%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/connect_serial__type_support.cpp.o[0m
+[2.539s] [ 20%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/connect_tcp__type_support.cpp.o[0m
+[2.539s] [ 20%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/command__type_support.cpp.o[0m
+[2.539s] [ 21%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/disconnect__type_support.cpp.o[0m
+[2.539s] [ 22%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/water_track__type_support.cpp.o[0m
+[2.539s] [ 23%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/start_field_calibration__type_support.cpp.o[0m
+[2.539s] [ 24%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/stop__type_support.cpp.o[0m
+[2.542s] [ 24%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/bottom_track__type_support.cpp.o[0m
+[2.542s] [ 25%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/altimeter__type_support.cpp.o[0m
+[2.542s] [ 25%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/field_calibration__type_support.cpp.o[0m
+[2.545s] [ 26%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/magnetometer__type_support.cpp.o[0m
+[2.545s] [ 26%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/ins__type_support.cpp.o[0m
+[2.548s] [ 27%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/imu__type_support.cpp.o[0m
+[2.576s] [ 28%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so[0m
+[2.608s] [ 28%] Built target interfaces__rosidl_typesupport_c
+[2.626s] [ 29%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/connect_tcp__type_support.cpp.o[0m
+[2.626s] [ 29%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/stop__type_support.cpp.o[0m
+[2.628s] [ 30%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/bottom_track__type_support.cpp.o[0m
+[2.628s] [ 31%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/disconnect__type_support.cpp.o[0m
+[2.628s] [ 32%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/connect_serial__type_support.cpp.o[0m
+[2.628s] [ 33%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/command__type_support.cpp.o[0m
+[2.628s] [ 34%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/ahrs__type_support.cpp.o[0m
+[2.629s] [ 34%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/start__type_support.cpp.o[0m
+[2.629s] [ 34%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/start_field_calibration__type_support.cpp.o[0m
+[2.629s] [ 34%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/water_track__type_support.cpp.o[0m
+[2.629s] [ 35%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/altimeter__type_support.cpp.o[0m
+[2.630s] [ 36%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/ins__type_support.cpp.o[0m
+[2.630s] [ 37%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/field_calibration__type_support.cpp.o[0m
+[2.631s] [ 38%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/magnetometer__type_support.cpp.o[0m
+[2.631s] [ 39%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/current_profile__type_support.cpp.o[0m
+[2.632s] [ 39%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/imu__type_support.cpp.o[0m
+[2.776s] [ 39%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/connect_tcp__type_support.c.o[0m
+[2.780s] [ 40%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/disconnect__type_support.c.o[0m
+[2.781s] [ 41%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/connect_serial__type_support.c.o[0m
+[2.824s] [ 41%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/start_field_calibration__type_support.c.o[0m
+[2.826s] [ 42%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/start__type_support.c.o[0m
+[2.841s] [ 43%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/stop__type_support.c.o[0m
+[2.850s] [ 44%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/command__type_support.c.o[0m
+[2.864s] [ 45%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/altimeter__type_support.c.o[0m
+[2.864s] [ 45%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/ahrs__type_support.c.o[0m
+[2.870s] [ 46%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/bottom_track__type_support.c.o[0m
+[2.876s] [ 46%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/water_track__type_support.c.o[0m
+[2.881s] [ 47%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/current_profile__type_support.c.o[0m
+[2.884s] [ 48%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/field_calibration__type_support.c.o[0m
+[2.897s] [ 48%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/imu__type_support.c.o[0m
+[2.908s] [ 49%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/ins__type_support.c.o[0m
+[2.910s] [ 50%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/magnetometer__type_support.c.o[0m
+[2.946s] [ 50%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/connect_serial__type_support_c.cpp.o[0m
+[2.948s] [ 50%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/start__type_support_c.cpp.o[0m
+[2.948s] [ 51%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/connect_tcp__type_support_c.cpp.o[0m
+[2.949s] [ 52%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/disconnect__type_support_c.cpp.o[0m
+[2.952s] [ 53%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/start_field_calibration__type_support_c.cpp.o[0m
+[2.952s] [ 53%] [32m[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so[0m
+[2.953s] [ 53%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/command__type_support_c.cpp.o[0m
+[2.955s] [ 54%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/stop__type_support_c.cpp.o[0m
+[2.959s] [ 55%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/ahrs__type_support_c.cpp.o[0m
+[2.959s] [ 56%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/altimeter__type_support_c.cpp.o[0m
+[2.960s] [ 57%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/water_track__type_support_c.cpp.o[0m
+[2.961s] [ 57%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/bottom_track__type_support_c.cpp.o[0m
+[2.967s] [ 58%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/current_profile__type_support_c.cpp.o[0m
+[2.967s] [ 58%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/field_calibration__type_support_c.cpp.o[0m
+[2.973s] [ 59%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/imu__type_support_c.cpp.o[0m
+[2.977s] [ 60%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/ins__type_support_c.cpp.o[0m
+[2.979s] [ 60%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/magnetometer__type_support_c.cpp.o[0m
+[2.991s] [ 61%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/connect_serial__type_support.cpp.o[0m
+[2.992s] [ 61%] Built target interfaces__rosidl_typesupport_introspection_c
+[3.003s] [ 61%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/connect_tcp__type_support.cpp.o[0m
+[3.003s] [ 62%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/disconnect__type_support.cpp.o[0m
+[3.003s] [ 63%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/start__type_support.cpp.o[0m
+[3.005s] [ 63%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so[0m
+[3.048s] [ 63%] Built target interfaces__rosidl_typesupport_cpp
+[3.062s] [ 63%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/start_field_calibration__type_support.cpp.o[0m
+[3.263s] [ 64%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/connect_serial__type_support.cpp.o[0m
+[3.276s] [ 65%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/stop__type_support.cpp.o[0m
+[3.284s] [ 67%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/command__type_support.cpp.o[0m
+[3.284s] [ 67%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/connect_tcp__type_support.cpp.o[0m
+[3.289s] [ 67%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/ahrs__type_support.cpp.o[0m
+[3.294s] [ 67%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/disconnect__type_support.cpp.o[0m
+[3.317s] [ 68%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/start__type_support.cpp.o[0m
+[3.354s] [ 69%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/altimeter__type_support.cpp.o[0m
+[3.384s] [ 71%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/bottom_track__type_support.cpp.o[0m
+[3.385s] [ 71%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/start_field_calibration__type_support.cpp.o[0m
+[3.390s] [ 71%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/water_track__type_support.cpp.o[0m
+[3.390s] [ 72%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/current_profile__type_support.cpp.o[0m
+[3.393s] [ 72%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/stop__type_support.cpp.o[0m
+[3.393s] [ 73%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/field_calibration__type_support.cpp.o[0m
+[3.412s] [ 74%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/command__type_support.cpp.o[0m
+[3.422s] [ 74%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/imu__type_support.cpp.o[0m
+[3.430s] [ 75%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/ahrs__type_support.cpp.o[0m
+[3.436s] [ 76%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/ins__type_support.cpp.o[0m
+[3.452s] [ 77%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/magnetometer__type_support.cpp.o[0m
+[3.514s] [ 77%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/altimeter__type_support.cpp.o[0m
+[3.538s] [ 78%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/bottom_track__type_support.cpp.o[0m
+[3.568s] [ 79%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.630s] [ 80%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/water_track__type_support.cpp.o[0m
+[3.654s] [ 81%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/field_calibration__type_support.cpp.o[0m
+[3.654s] [ 81%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/current_profile__type_support.cpp.o[0m
+[3.670s] [ 82%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/imu__type_support.cpp.o[0m
+[3.675s] [ 82%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/ins__type_support.cpp.o[0m
+[3.723s] [ 83%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/magnetometer__type_support.cpp.o[0m
+[3.734s] [ 83%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[4.026s] [ 83%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.067s] [ 84%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.083s] [ 84%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[4.117s] [ 84%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[4.130s] [ 84%] Built target interfaces
+[4.143s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.851s] [ 85%] Built target interfaces__py
+[5.872s] [ 85%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_start_s.c.o[0m
+[5.872s] [ 87%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_stop_s.c.o[0m
+[5.872s] [ 87%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_start_field_calibration_s.c.o[0m
+[5.873s] [ 87%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_command_s.c.o[0m
+[5.873s] [ 88%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_water_track_s.c.o[0m
+[5.873s] [ 88%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_connect_serial_s.c.o[0m
+[5.873s] [ 89%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_connect_tcp_s.c.o[0m
+[5.873s] [ 90%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_disconnect_s.c.o[0m
+[5.874s] [ 90%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_bottom_track_s.c.o[0m
+[5.874s] [ 91%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_current_profile_s.c.o[0m
+[5.874s] [ 91%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_field_calibration_s.c.o[0m
+[5.874s] [ 91%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_magnetometer_s.c.o[0m
+[5.874s] [ 92%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_imu_s.c.o[0m
+[5.875s] [ 93%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_ahrs_s.c.o[0m
+[5.875s] [ 94%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_altimeter_s.c.o[0m
+[5.877s] [ 95%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_ins_s.c.o[0m
+[5.998s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.so[0m
+[6.029s] [ 96%] Built target interfaces__rosidl_generator_py
+[6.046s] [ 97%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[6.046s] [ 99%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.046s] [ 99%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.139s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.144s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.147s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.171s] [100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[6.172s] [100%] Built target interfaces__rosidl_typesupport_c__pyext
+[6.175s] [100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext
+[6.183s] Invoked command in '/home/frfusera/ros2_ws/nortek_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/home/frfusera/ros2_ws/install/nucleus_driver_ros2:/opt/ros/humble /usr/bin/cmake --build /home/frfusera/ros2_ws/nortek_ws/build/interfaces -- -j22 -l22
+[6.188s] Invoking command in '/home/frfusera/ros2_ws/nortek_ws/build/interfaces': CMAKE_PREFIX_PATH=/home/frfusera/ros2_ws/install/nucleus_driver_ros2:/opt/ros/humble /usr/bin/cmake --install /home/frfusera/ros2_ws/nortek_ws/build/interfaces
+[6.192s] -- Install configuration: ""
+[6.193s] -- Execute custom install script
+[6.193s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[6.199s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/ahrs.h
+[6.205s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/altimeter.h
+[6.211s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/bottom_track.h
+[6.215s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/current_profile.h
+[6.220s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/ahrs__functions.h
+[6.227s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/ahrs__struct.h
+[6.231s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/ahrs__type_support.h
+[6.237s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/altimeter__functions.h
+[6.241s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/altimeter__struct.h
+[6.247s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/altimeter__type_support.h
+[6.254s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/bottom_track__functions.h
+[6.259s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/bottom_track__struct.h
+[6.263s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/bottom_track__type_support.h
+[6.267s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/current_profile__functions.h
+[6.272s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/current_profile__struct.h
+[6.277s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/current_profile__type_support.h
+[6.281s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/field_calibration__functions.h
+[6.286s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/field_calibration__struct.h
+[6.291s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/field_calibration__type_support.h
+[6.297s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/imu__functions.h
+[6.301s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/imu__struct.h
+[6.307s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/imu__type_support.h
+[6.312s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/ins__functions.h
+[6.317s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/ins__struct.h
+[6.322s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/ins__type_support.h
+[6.328s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/magnetometer__functions.h
+[6.333s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/magnetometer__struct.h
+[6.339s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/magnetometer__type_support.h
+[6.345s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/water_track__functions.h
+[6.349s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/water_track__struct.h
+[6.354s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/water_track__type_support.h
+[6.361s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/field_calibration.h
+[6.366s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/imu.h
+[6.371s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/ins.h
+[6.377s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/magnetometer.h
+[6.383s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h
+[6.390s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/water_track.h
+[6.396s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/command.h
+[6.402s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/connect_serial.h
+[6.407s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/connect_tcp.h
+[6.413s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/command__functions.h
+[6.419s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/command__struct.h
+[6.424s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/command__type_support.h
+[6.430s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/connect_serial__functions.h
+[6.436s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/connect_serial__struct.h
+[6.442s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/connect_serial__type_support.h
+[6.448s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/connect_tcp__functions.h
+[6.452s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/connect_tcp__struct.h
+[6.459s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/connect_tcp__type_support.h
+[6.463s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/disconnect__functions.h
+[6.468s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/disconnect__struct.h
+[6.475s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/disconnect__type_support.h
+[6.482s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/start__functions.h
+[6.488s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/start__struct.h
+[6.493s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/start__type_support.h
+[6.498s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/start_field_calibration__functions.h
+[6.503s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/start_field_calibration__struct.h
+[6.509s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/start_field_calibration__type_support.h
+[6.513s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/stop__functions.h
+[6.518s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/stop__struct.h
+[6.524s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/stop__type_support.h
+[6.528s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/disconnect.h
+[6.535s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/start.h
+[6.540s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/start_field_calibration.h
+[6.546s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/stop.h
+[6.554s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/environment/library_path.sh
+[6.560s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/environment/library_path.dsv
+[6.567s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/ahrs__rosidl_typesupport_fastrtps_c.h
+[6.571s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/altimeter__rosidl_typesupport_fastrtps_c.h
+[6.577s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/bottom_track__rosidl_typesupport_fastrtps_c.h
+[6.582s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/current_profile__rosidl_typesupport_fastrtps_c.h
+[6.587s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/field_calibration__rosidl_typesupport_fastrtps_c.h
+[6.592s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/imu__rosidl_typesupport_fastrtps_c.h
+[6.597s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/ins__rosidl_typesupport_fastrtps_c.h
+[6.602s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/magnetometer__rosidl_typesupport_fastrtps_c.h
+[6.607s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/water_track__rosidl_typesupport_fastrtps_c.h
+[6.612s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.617s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/command__rosidl_typesupport_fastrtps_c.h
+[6.621s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/connect_serial__rosidl_typesupport_fastrtps_c.h
+[6.627s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/connect_tcp__rosidl_typesupport_fastrtps_c.h
+[6.633s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/disconnect__rosidl_typesupport_fastrtps_c.h
+[6.638s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/start__rosidl_typesupport_fastrtps_c.h
+[6.642s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/start_field_calibration__rosidl_typesupport_fastrtps_c.h
+[6.647s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/stop__rosidl_typesupport_fastrtps_c.h
+[6.653s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/ahrs__rosidl_typesupport_introspection_c.h
+[6.659s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/altimeter__rosidl_typesupport_introspection_c.h
+[6.664s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/bottom_track__rosidl_typesupport_introspection_c.h
+[6.669s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/current_profile__rosidl_typesupport_introspection_c.h
+[6.673s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/field_calibration__rosidl_typesupport_introspection_c.h
+[6.679s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/imu__rosidl_typesupport_introspection_c.h
+[6.686s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/ins__rosidl_typesupport_introspection_c.h
+[6.690s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/magnetometer__rosidl_typesupport_introspection_c.h
+[6.696s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/water_track__rosidl_typesupport_introspection_c.h
+[6.699s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.705s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/command__rosidl_typesupport_introspection_c.h
+[6.711s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/connect_serial__rosidl_typesupport_introspection_c.h
+[6.717s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/connect_tcp__rosidl_typesupport_introspection_c.h
+[6.722s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/disconnect__rosidl_typesupport_introspection_c.h
+[6.728s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/start__rosidl_typesupport_introspection_c.h
+[6.733s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/start_field_calibration__rosidl_typesupport_introspection_c.h
+[6.739s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/stop__rosidl_typesupport_introspection_c.h
+[6.743s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/ahrs.hpp
+[6.749s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/altimeter.hpp
+[6.754s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/bottom_track.hpp
+[6.759s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/current_profile.hpp
+[6.763s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/ahrs__builder.hpp
+[6.767s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/ahrs__struct.hpp
+[6.771s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/ahrs__traits.hpp
+[6.775s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/ahrs__type_support.hpp
+[6.779s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/altimeter__builder.hpp
+[6.786s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/altimeter__struct.hpp
+[6.790s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/altimeter__traits.hpp
+[6.794s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/altimeter__type_support.hpp
+[6.798s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/bottom_track__builder.hpp
+[6.804s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/bottom_track__struct.hpp
+[6.809s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/bottom_track__traits.hpp
+[6.815s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/bottom_track__type_support.hpp
+[6.822s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/current_profile__builder.hpp
+[6.828s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/current_profile__struct.hpp
+[6.832s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/current_profile__traits.hpp
+[6.838s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/current_profile__type_support.hpp
+[6.843s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/field_calibration__builder.hpp
+[6.848s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/field_calibration__struct.hpp
+[6.852s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/field_calibration__traits.hpp
+[6.858s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/field_calibration__type_support.hpp
+[6.863s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/imu__builder.hpp
+[6.867s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/imu__struct.hpp
+[6.871s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/imu__traits.hpp
+[6.876s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/imu__type_support.hpp
+[6.881s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/ins__builder.hpp
+[6.887s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/ins__struct.hpp
+[6.892s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/ins__traits.hpp
+[6.897s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/ins__type_support.hpp
+[6.902s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/magnetometer__builder.hpp
+[6.908s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/magnetometer__struct.hpp
+[6.913s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/magnetometer__traits.hpp
+[6.918s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/magnetometer__type_support.hpp
+[6.923s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/water_track__builder.hpp
+[6.929s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/water_track__struct.hpp
+[6.934s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/water_track__traits.hpp
+[6.939s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/water_track__type_support.hpp
+[6.946s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/field_calibration.hpp
+[6.952s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/imu.hpp
+[6.957s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/ins.hpp
+[6.963s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/magnetometer.hpp
+[6.969s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.974s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/water_track.hpp
+[6.979s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/command.hpp
+[6.984s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/connect_serial.hpp
+[6.990s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/connect_tcp.hpp
+[6.994s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/command__builder.hpp
+[6.998s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/command__struct.hpp
+[7.002s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/command__traits.hpp
+[7.007s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/command__type_support.hpp
+[7.013s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/connect_serial__builder.hpp
+[7.018s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/connect_serial__struct.hpp
+[7.022s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/connect_serial__traits.hpp
+[7.029s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/connect_serial__type_support.hpp
+[7.033s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/connect_tcp__builder.hpp
+[7.038s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/connect_tcp__struct.hpp
+[7.044s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/connect_tcp__traits.hpp
+[7.051s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/connect_tcp__type_support.hpp
+[7.057s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/disconnect__builder.hpp
+[7.063s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/disconnect__struct.hpp
+[7.069s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/disconnect__traits.hpp
+[7.075s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/disconnect__type_support.hpp
+[7.081s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/start__builder.hpp
+[7.087s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/start__struct.hpp
+[7.092s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/start__traits.hpp
+[7.097s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/start__type_support.hpp
+[7.102s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/start_field_calibration__builder.hpp
+[7.109s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/start_field_calibration__struct.hpp
+[7.115s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/start_field_calibration__traits.hpp
+[7.121s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/start_field_calibration__type_support.hpp
+[7.126s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/stop__builder.hpp
+[7.132s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/stop__struct.hpp
+[7.137s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/stop__traits.hpp
+[7.144s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/stop__type_support.hpp
+[7.149s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/disconnect.hpp
+[7.155s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/start.hpp
+[7.162s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/start_field_calibration.hpp
+[7.166s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/stop.hpp
+[7.172s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/ahrs__rosidl_typesupport_fastrtps_cpp.hpp
+[7.177s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/altimeter__rosidl_typesupport_fastrtps_cpp.hpp
+[7.181s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/bottom_track__rosidl_typesupport_fastrtps_cpp.hpp
+[7.187s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/current_profile__rosidl_typesupport_fastrtps_cpp.hpp
+[7.193s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/field_calibration__rosidl_typesupport_fastrtps_cpp.hpp
+[7.198s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/imu__rosidl_typesupport_fastrtps_cpp.hpp
+[7.202s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/ins__rosidl_typesupport_fastrtps_cpp.hpp
+[7.208s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/magnetometer__rosidl_typesupport_fastrtps_cpp.hpp
+[7.214s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/water_track__rosidl_typesupport_fastrtps_cpp.hpp
+[7.219s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.226s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/command__rosidl_typesupport_fastrtps_cpp.hpp
+[7.232s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/connect_serial__rosidl_typesupport_fastrtps_cpp.hpp
+[7.237s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/connect_tcp__rosidl_typesupport_fastrtps_cpp.hpp
+[7.243s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/disconnect__rosidl_typesupport_fastrtps_cpp.hpp
+[7.248s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/start__rosidl_typesupport_fastrtps_cpp.hpp
+[7.255s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/start_field_calibration__rosidl_typesupport_fastrtps_cpp.hpp
+[7.260s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/stop__rosidl_typesupport_fastrtps_cpp.hpp
+[7.266s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/ahrs__rosidl_typesupport_introspection_cpp.hpp
+[7.273s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/altimeter__rosidl_typesupport_introspection_cpp.hpp
+[7.278s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/bottom_track__rosidl_typesupport_introspection_cpp.hpp
+[7.284s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/current_profile__rosidl_typesupport_introspection_cpp.hpp
+[7.289s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/field_calibration__rosidl_typesupport_introspection_cpp.hpp
+[7.295s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/imu__rosidl_typesupport_introspection_cpp.hpp
+[7.302s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/ins__rosidl_typesupport_introspection_cpp.hpp
+[7.308s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/magnetometer__rosidl_typesupport_introspection_cpp.hpp
+[7.314s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/msg/detail/water_track__rosidl_typesupport_introspection_cpp.hpp
+[7.319s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/command__rosidl_typesupport_introspection_cpp.hpp
+[7.325s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/connect_serial__rosidl_typesupport_introspection_cpp.hpp
+[7.330s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/connect_tcp__rosidl_typesupport_introspection_cpp.hpp
+[7.334s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/disconnect__rosidl_typesupport_introspection_cpp.hpp
+[7.340s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/start__rosidl_typesupport_introspection_cpp.hpp
+[7.347s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/start_field_calibration__rosidl_typesupport_introspection_cpp.hpp
+[7.353s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/include/interfaces/interfaces/srv/detail/stop__rosidl_typesupport_introspection_cpp.hpp
+[7.359s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/environment/pythonpath.sh
+[7.364s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[7.369s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.1.0-py3.10.egg-info/PKG-INFO
+[7.374s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.1.0-py3.10.egg-info/SOURCES.txt
+[7.380s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.1.0-py3.10.egg-info/dependency_links.txt
+[7.385s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.1.0-py3.10.egg-info/top_level.txt
+[7.393s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py
+[7.398s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c
+[7.405s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.409s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[7.415s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.422s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.426s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.432s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/libinterfaces__rosidl_generator_py.so
+[7.438s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py
+[7.443s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_ahrs.py
+[7.447s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_ahrs_s.c
+[7.454s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_altimeter.py
+[7.461s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_altimeter_s.c
+[7.466s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_bottom_track.py
+[7.473s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_bottom_track_s.c
+[7.478s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_current_profile.py
+[7.484s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_current_profile_s.c
+[7.488s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_field_calibration.py
+[7.493s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_field_calibration_s.c
+[7.498s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_imu.py
+[7.505s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_imu_s.c
+[7.510s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_ins.py
+[7.517s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_ins_s.c
+[7.522s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_magnetometer.py
+[7.528s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_magnetometer_s.c
+[7.535s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_water_track.py
+[7.540s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_water_track_s.c
+[7.547s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/__init__.py
+[7.552s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_command.py
+[7.558s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_command_s.c
+[7.564s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_connect_serial.py
+[7.568s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_connect_serial_s.c
+[7.575s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_connect_tcp.py
+[7.581s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_connect_tcp_s.c
+[7.587s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_disconnect.py
+[7.594s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_disconnect_s.c
+[7.598s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_start.py
+[7.605s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_start_field_calibration.py
+[7.609s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_start_field_calibration_s.c
+[7.614s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_start_s.c
+[7.620s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_stop.py
+[7.627s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_stop_s.c
+[7.632s] -- Up-to-date symlink: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.632s] -- Up-to-date symlink: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.633s] -- Up-to-date symlink: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.633s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/srv/ConnectSerial.idl
+[7.638s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/srv/ConnectTcp.idl
+[7.646s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/srv/Disconnect.idl
+[7.651s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/srv/Start.idl
+[7.658s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/srv/StartFieldCalibration.idl
+[7.663s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/srv/Stop.idl
+[7.670s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/srv/Command.idl
+[7.676s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/msg/AHRS.idl
+[7.681s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/msg/Altimeter.idl
+[7.687s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/msg/BottomTrack.idl
+[7.692s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/msg/WaterTrack.idl
+[7.696s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/msg/CurrentProfile.idl
+[7.703s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/msg/FieldCalibration.idl
+[7.709s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/msg/IMU.idl
+[7.714s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/msg/INS.idl
+[7.721s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/msg/Magnetometer.idl
+[7.728s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/srv/ConnectSerial.srv
+[7.734s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/srv/ConnectSerial_Request.msg
+[7.740s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/srv/ConnectSerial_Response.msg
+[7.746s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/srv/ConnectTcp.srv
+[7.751s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/srv/ConnectTcp_Request.msg
+[7.756s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/srv/ConnectTcp_Response.msg
+[7.761s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/srv/Disconnect.srv
+[7.767s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/srv/Disconnect_Request.msg
+[7.773s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/srv/Disconnect_Response.msg
+[7.777s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/srv/Start.srv
+[7.782s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/srv/Start_Request.msg
+[7.788s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/srv/Start_Response.msg
+[7.794s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/srv/StartFieldCalibration.srv
+[7.800s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/srv/StartFieldCalibration_Request.msg
+[7.805s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/srv/StartFieldCalibration_Response.msg
+[7.811s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/srv/Stop.srv
+[7.816s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/srv/Stop_Request.msg
+[7.821s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/srv/Stop_Response.msg
+[7.829s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/srv/Command.srv
+[7.835s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/srv/Command_Request.msg
+[7.841s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/srv/Command_Response.msg
+[7.846s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/msg/AHRS.msg
+[7.854s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/msg/Altimeter.msg
+[7.860s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/msg/BottomTrack.msg
+[7.867s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/msg/WaterTrack.msg
+[7.873s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/msg/CurrentProfile.msg
+[7.878s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/msg/FieldCalibration.msg
+[7.884s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/msg/IMU.msg
+[7.890s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/msg/INS.msg
+[7.897s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/msg/Magnetometer.msg
+[7.902s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[7.907s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[7.913s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[7.919s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[7.924s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/environment/path.sh
+[7.929s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/environment/path.dsv
+[7.935s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/local_setup.bash
+[7.939s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/local_setup.sh
+[7.945s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/local_setup.zsh
+[7.950s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/local_setup.dsv
+[7.956s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/package.dsv
+[7.962s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[7.968s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[7.974s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.979s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.985s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[7.991s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[7.999s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.003s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.009s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[8.014s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[8.020s] -- Symlinking: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/package.xml
+[8.024s] -- Installing: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+[8.024s] -- Set runtime path of "/home/frfusera/ros2_ws/nortek_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""
+[8.024s] -- Installing: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[8.024s] -- Set runtime path of "/home/frfusera/ros2_ws/nortek_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[8.025s] -- Installing: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[8.025s] -- Set runtime path of "/home/frfusera/ros2_ws/nortek_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""
+[8.025s] -- Installing: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+[8.025s] -- Set runtime path of "/home/frfusera/ros2_ws/nortek_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""
+[8.025s] -- Installing: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[8.025s] -- Set runtime path of "/home/frfusera/ros2_ws/nortek_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.025s] -- Installing: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[8.025s] -- Set runtime path of "/home/frfusera/ros2_ws/nortek_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[8.026s] -- Installing: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+[8.026s] -- Set runtime path of "/home/frfusera/ros2_ws/nortek_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""
+[8.066s] Listing '/home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces'...
+[8.066s] Compiling '/home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py'...
+[8.066s] Listing '/home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg'...
+[8.066s] Compiling '/home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py'...
+[8.066s] Compiling '/home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_ahrs.py'...
+[8.066s] Compiling '/home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_altimeter.py'...
+[8.066s] Compiling '/home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_bottom_track.py'...
+[8.066s] Compiling '/home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_current_profile.py'...
+[8.066s] Compiling '/home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_field_calibration.py'...
+[8.066s] Compiling '/home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_imu.py'...
+[8.066s] Compiling '/home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_ins.py'...
+[8.066s] Compiling '/home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_magnetometer.py'...
+[8.067s] Compiling '/home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_water_track.py'...
+[8.067s] Listing '/home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv'...
+[8.067s] Compiling '/home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/__init__.py'...
+[8.067s] Compiling '/home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_command.py'...
+[8.067s] Compiling '/home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_connect_serial.py'...
+[8.067s] Compiling '/home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_connect_tcp.py'...
+[8.067s] Compiling '/home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_disconnect.py'...
+[8.067s] Compiling '/home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_start.py'...
+[8.067s] Compiling '/home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_start_field_calibration.py'...
+[8.067s] Compiling '/home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_stop.py'...
+[8.069s] -- Installing: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/lib/libinterfaces__rosidl_generator_py.so
+[8.070s] -- Set runtime path of "/home/frfusera/ros2_ws/nortek_ws/install/interfaces/lib/libinterfaces__rosidl_generator_py.so" to ""
+[8.070s] -- Installing: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake
+[8.070s] -- Installing: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake
+[8.070s] -- Installing: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[8.070s] -- Installing: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.070s] -- Installing: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake
+[8.070s] -- Installing: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.070s] -- Installing: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake
+[8.070s] -- Installing: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[8.070s] -- Installing: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake
+[8.070s] -- Installing: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.070s] -- Installing: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.070s] -- Installing: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[8.071s] -- Installing: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.071s] -- Installing: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake
+[8.071s] -- Installing: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[8.071s] -- Installing: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake
+[8.071s] -- Installing: /home/frfusera/ros2_ws/nortek_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[8.073s] Invoked command in '/home/frfusera/ros2_ws/nortek_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/home/frfusera/ros2_ws/install/nucleus_driver_ros2:/opt/ros/humble /usr/bin/cmake --install /home/frfusera/ros2_ws/nortek_ws/build/interfaces

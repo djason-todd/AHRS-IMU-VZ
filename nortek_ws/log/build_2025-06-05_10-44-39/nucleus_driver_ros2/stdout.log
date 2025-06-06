@@ -1,0 +1,106 @@
+running develop
+Removing /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus-driver-ros2.egg-link (link to .)
+running egg_info
+writing ../../../../build/nucleus_driver_ros2/nucleus_driver_ros2.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/nucleus_driver_ros2/nucleus_driver_ros2.egg-info/dependency_links.txt
+writing entry points to ../../../../build/nucleus_driver_ros2/nucleus_driver_ros2.egg-info/entry_points.txt
+writing requirements to ../../../../build/nucleus_driver_ros2/nucleus_driver_ros2.egg-info/requires.txt
+writing top-level names to ../../../../build/nucleus_driver_ros2/nucleus_driver_ros2.egg-info/top_level.txt
+reading manifest file '../../../../build/nucleus_driver_ros2/nucleus_driver_ros2.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/nucleus_driver_ros2/nucleus_driver_ros2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build
+creating /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib
+creating /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_node
+copying nucleus_node/nucleus_node.py -> /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_node
+copying nucleus_node/__init__.py -> /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_node
+creating /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_clients
+copying nucleus_clients/connect_tcp.py -> /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_clients
+copying nucleus_clients/start.py -> /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_clients
+copying nucleus_clients/stop.py -> /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_clients
+copying nucleus_clients/field_calibration.py -> /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_clients
+copying nucleus_clients/command.py -> /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_clients
+copying nucleus_clients/connect_serial.py -> /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_clients
+copying nucleus_clients/disconnect.py -> /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_clients
+copying nucleus_clients/__init__.py -> /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_clients
+creating /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_subscribers
+copying nucleus_subscribers/field_calibration_packets.py -> /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_subscribers
+copying nucleus_subscribers/ahrs_packets.py -> /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_subscribers
+copying nucleus_subscribers/altimeter_packets.py -> /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_subscribers
+copying nucleus_subscribers/current_profile_packets.py -> /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_subscribers
+copying nucleus_subscribers/imu_packets.py -> /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_subscribers
+copying nucleus_subscribers/ins_packets.py -> /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_subscribers
+copying nucleus_subscribers/water_track_packets.py -> /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_subscribers
+copying nucleus_subscribers/magnetometer_packets.py -> /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_subscribers
+copying nucleus_subscribers/bottom_track_packets.py -> /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_subscribers
+copying nucleus_subscribers/__init__.py -> /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_subscribers
+running install
+running install_lib
+creating /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_node
+copying /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_node/nucleus_node.py -> /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_node
+copying /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_node/__init__.py -> /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_node
+creating /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_subscribers
+copying /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_subscribers/field_calibration_packets.py -> /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_subscribers
+copying /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_subscribers/ahrs_packets.py -> /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_subscribers
+copying /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_subscribers/altimeter_packets.py -> /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_subscribers
+copying /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_subscribers/current_profile_packets.py -> /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_subscribers
+copying /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_subscribers/imu_packets.py -> /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_subscribers
+copying /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_subscribers/ins_packets.py -> /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_subscribers
+copying /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_subscribers/water_track_packets.py -> /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_subscribers
+copying /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_subscribers/magnetometer_packets.py -> /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_subscribers
+copying /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_subscribers/bottom_track_packets.py -> /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_subscribers
+copying /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_subscribers/__init__.py -> /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_subscribers
+creating /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_clients
+copying /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_clients/connect_tcp.py -> /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_clients
+copying /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_clients/start.py -> /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_clients
+copying /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_clients/stop.py -> /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_clients
+copying /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_clients/field_calibration.py -> /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_clients
+copying /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_clients/command.py -> /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_clients
+copying /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_clients/connect_serial.py -> /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_clients
+copying /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_clients/disconnect.py -> /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_clients
+copying /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build/lib/nucleus_clients/__init__.py -> /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_clients
+byte-compiling /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_node/nucleus_node.py to nucleus_node.cpython-310.pyc
+byte-compiling /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_node/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_subscribers/field_calibration_packets.py to field_calibration_packets.cpython-310.pyc
+byte-compiling /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_subscribers/ahrs_packets.py to ahrs_packets.cpython-310.pyc
+byte-compiling /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_subscribers/altimeter_packets.py to altimeter_packets.cpython-310.pyc
+byte-compiling /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_subscribers/current_profile_packets.py to current_profile_packets.cpython-310.pyc
+byte-compiling /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_subscribers/imu_packets.py to imu_packets.cpython-310.pyc
+byte-compiling /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_subscribers/ins_packets.py to ins_packets.cpython-310.pyc
+byte-compiling /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_subscribers/water_track_packets.py to water_track_packets.cpython-310.pyc
+byte-compiling /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_subscribers/magnetometer_packets.py to magnetometer_packets.cpython-310.pyc
+byte-compiling /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_subscribers/bottom_track_packets.py to bottom_track_packets.cpython-310.pyc
+byte-compiling /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_subscribers/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_clients/connect_tcp.py to connect_tcp.cpython-310.pyc
+byte-compiling /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_clients/start.py to start.cpython-310.pyc
+byte-compiling /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_clients/stop.py to stop.cpython-310.pyc
+byte-compiling /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_clients/field_calibration.py to field_calibration.cpython-310.pyc
+byte-compiling /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_clients/command.py to command.cpython-310.pyc
+byte-compiling /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_clients/connect_serial.py to connect_serial.cpython-310.pyc
+byte-compiling /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_clients/disconnect.py to disconnect.cpython-310.pyc
+byte-compiling /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_clients/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/nucleus_driver_ros2 -> /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/share/ament_index/resource_index/packages
+copying package.xml -> /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/share/nucleus_driver_ros2
+running install_egg_info
+Copying ../../../../build/nucleus_driver_ros2/nucleus_driver_ros2.egg-info to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_driver_ros2-0.2.1-py3.10.egg-info
+running install_scripts
+Installing ahrs_packets script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+Installing altimeter_packets script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+Installing bottom_track_packets script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+Installing command script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+Installing connect_serial script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+Installing connect_tcp script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+Installing current_profile_packets script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+Installing disconnect script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+Installing field_calibration script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+Installing field_calibration_packets script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+Installing imu_packets script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+Installing ins_packets script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+Installing magnetometer_packets script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+Installing nucleus_node script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+Installing start script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+Installing stop script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+Installing water_track_packets script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+writing list of installed files to '/home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/install.log'

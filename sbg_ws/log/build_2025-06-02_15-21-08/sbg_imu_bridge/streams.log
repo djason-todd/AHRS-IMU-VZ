@@ -1,0 +1,24 @@
+[0.324s] Invoking command in '/home/frfusera/ros2_ws/sbg_ws/build/sbg_imu_bridge': PYTHONPATH=/home/frfusera/ros2_ws/sbg_ws/build/sbg_imu_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/frfusera/ros2_ws/sbg_ws/install/sbg_imu_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/frfusera/ros2_ws/sbg_ws/build/sbg_imu_bridge/build --no-deps symlink_data
+[0.453s] running develop
+[0.526s] running egg_info
+[0.526s] creating sbg_imu_bridge.egg-info
+[0.526s] writing sbg_imu_bridge.egg-info/PKG-INFO
+[0.526s] writing dependency_links to sbg_imu_bridge.egg-info/dependency_links.txt
+[0.526s] writing entry points to sbg_imu_bridge.egg-info/entry_points.txt
+[0.526s] writing requirements to sbg_imu_bridge.egg-info/requires.txt
+[0.527s] writing top-level names to sbg_imu_bridge.egg-info/top_level.txt
+[0.527s] writing manifest file 'sbg_imu_bridge.egg-info/SOURCES.txt'
+[0.528s] reading manifest file 'sbg_imu_bridge.egg-info/SOURCES.txt'
+[0.528s] writing manifest file 'sbg_imu_bridge.egg-info/SOURCES.txt'
+[0.529s] running build_ext
+[0.529s] Creating /home/frfusera/ros2_ws/sbg_ws/install/sbg_imu_bridge/lib/python3.10/site-packages/sbg-imu-bridge.egg-link (link to .)
+[0.529s] Installing sbg_imu_bridge script to /home/frfusera/ros2_ws/sbg_ws/install/sbg_imu_bridge/lib/sbg_imu_bridge
+[0.529s] 
+[0.529s] Installed /home/frfusera/ros2_ws/sbg_ws/build/sbg_imu_bridge
+[0.529s] running symlink_data
+[0.529s] creating /home/frfusera/ros2_ws/sbg_ws/install/sbg_imu_bridge/share/ament_index
+[0.530s] creating /home/frfusera/ros2_ws/sbg_ws/install/sbg_imu_bridge/share/ament_index/resource_index
+[0.530s] creating /home/frfusera/ros2_ws/sbg_ws/install/sbg_imu_bridge/share/ament_index/resource_index/packages
+[0.530s] symbolically linking /home/frfusera/ros2_ws/sbg_ws/build/sbg_imu_bridge/resource/sbg_imu_bridge -> /home/frfusera/ros2_ws/sbg_ws/install/sbg_imu_bridge/share/ament_index/resource_index/packages
+[0.530s] symbolically linking /home/frfusera/ros2_ws/sbg_ws/build/sbg_imu_bridge/package.xml -> /home/frfusera/ros2_ws/sbg_ws/install/sbg_imu_bridge/share/sbg_imu_bridge
+[0.548s] Invoked command in '/home/frfusera/ros2_ws/sbg_ws/build/sbg_imu_bridge' returned '0': PYTHONPATH=/home/frfusera/ros2_ws/sbg_ws/build/sbg_imu_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/frfusera/ros2_ws/sbg_ws/install/sbg_imu_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/frfusera/ros2_ws/sbg_ws/build/sbg_imu_bridge/build --no-deps symlink_data

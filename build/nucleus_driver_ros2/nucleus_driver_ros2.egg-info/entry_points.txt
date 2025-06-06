@@ -1,0 +1,3 @@
+[console_scripts]
+nucleus_node = nucleus_driver_ros2.nucleus_node:main
+

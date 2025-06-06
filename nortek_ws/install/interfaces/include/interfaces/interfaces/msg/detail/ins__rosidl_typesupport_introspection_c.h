@@ -1,0 +1,1 @@
+/home/frfusera/ros2_ws/nortek_ws/build/interfaces/rosidl_typesupport_introspection_c/interfaces/msg/detail/ins__rosidl_typesupport_introspection_c.h

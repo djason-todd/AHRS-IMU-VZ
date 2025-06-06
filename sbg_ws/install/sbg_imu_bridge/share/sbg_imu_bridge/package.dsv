@@ -1,0 +1,9 @@
+source;share/sbg_imu_bridge/hook/pythonpath.ps1
+source;share/sbg_imu_bridge/hook/pythonpath.dsv
+source;share/sbg_imu_bridge/hook/pythonpath.sh
+source;share/sbg_imu_bridge/hook/ament_prefix_path.ps1
+source;share/sbg_imu_bridge/hook/ament_prefix_path.dsv
+source;share/sbg_imu_bridge/hook/ament_prefix_path.sh
+source;../../build/sbg_imu_bridge/share/sbg_imu_bridge/hook/pythonpath_develop.ps1
+source;../../build/sbg_imu_bridge/share/sbg_imu_bridge/hook/pythonpath_develop.dsv
+source;../../build/sbg_imu_bridge/share/sbg_imu_bridge/hook/pythonpath_develop.sh

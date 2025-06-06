@@ -1,0 +1,1 @@
+/home/frfusera/ros2_ws/sbg_ws/src/sbg_ros2_driver/msg/SbgStatusAiding.msg

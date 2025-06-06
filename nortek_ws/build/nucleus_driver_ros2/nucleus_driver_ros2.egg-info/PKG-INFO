@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: nucleus-driver-ros2
+Version: 0.2.1
+Summary: This is a ros2 packege that builds on the Nucleus Driver. The pacakge consists of the nucleus_node which maps the functionality of the nucleus driver to a ros2 interface allowing communication to a Nucleus device over a ros2 environment
+Home-page: UNKNOWN
+Maintainer: martin
+Maintainer-email: martin.johansen@nortekgroup.com
+License: MIT
+Platform: UNKNOWN
+
+UNKNOWN
+

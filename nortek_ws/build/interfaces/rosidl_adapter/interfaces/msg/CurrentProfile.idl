@@ -1,0 +1,41 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from interfaces/msg/CurrentProfile.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module interfaces {
+  module msg {
+    struct CurrentProfile {
+      builtin_interfaces::msg::Time system_timestamp;
+
+      boolean posix_time;
+
+      uint32 timestamp;
+
+      uint32 microseconds;
+
+      uint32 serial_number;
+
+      float sound_velocity;
+
+      float temperature;
+
+      float pressure;
+
+      float cell_size;
+
+      float blanking;
+
+      uint16 number_of_cells;
+
+      uint16 ambiguity_velocity;
+
+      sequence<int16> velocity_data;
+
+      sequence<uint8> amplitude_data;
+
+      sequence<uint8> correlation_data;
+    };
+  };
+};

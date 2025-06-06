@@ -1,0 +1,695 @@
+[0.056s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'nucleus_driver_ros2']
+[0.056s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=22, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['nucleus_driver_ros2'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x758f53b52a70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x758f53b524a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x758f53b524a0>>, mixin_verb=('build',))
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.139s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/frfusera/ros2_ws'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws) by extension 'ros'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws) by extensions ['cmake', 'python']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws) by extension 'cmake'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws) by extension 'python'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws) by extensions ['python_setup_py']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws) by extension 'python_setup_py'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/build) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/build) ignored
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/install) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/install) ignored
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/log) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/log) ignored
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src) by extension 'ros'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src) by extensions ['cmake', 'python']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src) by extension 'cmake'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src) by extension 'python'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src) by extensions ['python_setup_py']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src) by extension 'python_setup_py'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver) by extension 'ros'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver) by extensions ['cmake', 'python']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver) by extension 'cmake'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver) by extension 'python'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver) by extensions ['python_setup_py']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver) by extension 'python_setup_py'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension) by extension 'ros'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension) by extensions ['cmake', 'python']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension) by extension 'cmake'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension) by extension 'python'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension) by extensions ['python_setup_py']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension) by extension 'python_setup_py'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/docs) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/docs) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/docs) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/docs) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/docs) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/docs) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/docs) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/docs) by extension 'ros'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/docs) by extensions ['cmake', 'python']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/docs) by extension 'cmake'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/docs) by extension 'python'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/docs) by extensions ['python_setup_py']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/docs) by extension 'python_setup_py'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src) by extension 'ros'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src) by extensions ['cmake', 'python']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src) by extension 'cmake'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src) by extension 'python'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src) by extensions ['python_setup_py']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src) by extension 'python_setup_py'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension) by extension 'ros'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension) by extensions ['cmake', 'python']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension) by extension 'cmake'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension) by extension 'python'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension) by extensions ['python_setup_py']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension) by extension 'python_setup_py'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static) by extension 'ros'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static) by extensions ['cmake', 'python']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static) by extension 'cmake'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static) by extension 'python'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static) by extensions ['python_setup_py']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static) by extension 'python_setup_py'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/css) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/css) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/css) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/css) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/css) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/css) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/css) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/css) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/css) by extension 'ros'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/css) by extensions ['cmake', 'python']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/css) by extension 'cmake'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/css) by extension 'python'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/css) by extensions ['python_setup_py']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/css) by extension 'python_setup_py'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/images) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/images) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/images) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/images) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/images) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/images) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/images) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/images) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/images) by extension 'ros'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/images) by extensions ['cmake', 'python']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/images) by extension 'cmake'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/images) by extension 'python'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/images) by extensions ['python_setup_py']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/images) by extension 'python_setup_py'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/js) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/js) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/js) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/js) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/js) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/js) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/js) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/js) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/js) by extension 'ros'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/js) by extensions ['cmake', 'python']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/js) by extension 'cmake'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/js) by extension 'python'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/js) by extensions ['python_setup_py']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/static/js) by extension 'python_setup_py'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/templates) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/templates) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/templates) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/templates) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/templates) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/templates) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/templates) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/templates) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/templates) by extension 'ros'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/templates) by extensions ['cmake', 'python']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/templates) by extension 'cmake'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/templates) by extension 'python'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/templates) by extensions ['python_setup_py']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/blueos_extension/src/nucleus_extension/templates) by extension 'python_setup_py'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver) by extension 'ros'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver) by extensions ['cmake', 'python']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver) by extension 'cmake'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver) by extension 'python'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver) by extensions ['python_setup_py']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver) by extension 'python_setup_py'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/docs) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/docs) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/docs) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/docs) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/docs) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/docs) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/docs) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/docs) by extension 'ros'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/docs) by extensions ['cmake', 'python']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/docs) by extension 'cmake'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/docs) by extension 'python'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/docs) by extensions ['python_setup_py']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/docs) by extension 'python_setup_py'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src) by extension 'ros'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src) by extensions ['cmake', 'python']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src) by extension 'cmake'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src) by extension 'python'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src) by extensions ['python_setup_py']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src) by extension 'python_setup_py'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src/nucleus_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src/nucleus_driver) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src/nucleus_driver) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src/nucleus_driver) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src/nucleus_driver) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src/nucleus_driver) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src/nucleus_driver) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src/nucleus_driver) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src/nucleus_driver) by extension 'ros'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src/nucleus_driver) by extensions ['cmake', 'python']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src/nucleus_driver) by extension 'cmake'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src/nucleus_driver) by extension 'python'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src/nucleus_driver) by extensions ['python_setup_py']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src/nucleus_driver) by extension 'python_setup_py'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src/nucleus_driver/entrypoints) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src/nucleus_driver/entrypoints) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src/nucleus_driver/entrypoints) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src/nucleus_driver/entrypoints) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src/nucleus_driver/entrypoints) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src/nucleus_driver/entrypoints) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src/nucleus_driver/entrypoints) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src/nucleus_driver/entrypoints) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src/nucleus_driver/entrypoints) by extension 'ros'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src/nucleus_driver/entrypoints) by extensions ['cmake', 'python']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src/nucleus_driver/entrypoints) by extension 'cmake'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src/nucleus_driver/entrypoints) by extension 'python'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src/nucleus_driver/entrypoints) by extensions ['python_setup_py']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/nucleus_driver/src/nucleus_driver/entrypoints) by extension 'python_setup_py'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/ros2) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/ros2) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/ros2) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/ros2) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/ros2) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/ros2) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/ros2) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(nortek_ws/src/nucleus_driver/ros2) by extension 'ros'
+[0.190s] DEBUG:colcon.colcon_core.package_identification:Package 'nortek_ws/src/nucleus_driver/ros2' with type 'ros.ament_python' and name 'nucleus_driver_ros2'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws) by extension 'ros'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws) by extensions ['cmake', 'python']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws) by extension 'python'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws) by extensions ['python_setup_py']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws) by extension 'python_setup_py'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/build) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/build) ignored
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/install) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/install) ignored
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/log) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/log) ignored
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/scripts) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/scripts) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/scripts) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/scripts) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/scripts) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/scripts) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/scripts) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/scripts) by extension 'ros'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/scripts) by extensions ['cmake', 'python']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/scripts) by extension 'cmake'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/scripts) by extension 'python'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/scripts) by extensions ['python_setup_py']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/scripts) by extension 'python_setup_py'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src) by extension 'ros'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src) by extensions ['cmake', 'python']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src) by extension 'cmake'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src) by extension 'python'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src) by extensions ['python_setup_py']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src) by extension 'python_setup_py'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build) by extension 'ros'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build) by extensions ['cmake', 'python']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build) by extension 'cmake'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build) by extension 'python'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build) by extensions ['python_setup_py']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build) by extension 'python_setup_py'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver) by extension 'ros'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver) by extensions ['cmake', 'python']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver) by extension 'cmake'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver) by extension 'python'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver) by extensions ['python_setup_py']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver) by extension 'python_setup_py'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles) by extension 'ros'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles) by extensions ['cmake', 'python']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles) by extension 'cmake'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles) by extension 'python'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles) by extensions ['python_setup_py']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles) by extension 'python_setup_py'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1) by extension 'ros'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1) by extensions ['cmake', 'python']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1) by extension 'cmake'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1) by extension 'python'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1) by extensions ['python_setup_py']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1) by extension 'python_setup_py'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdC) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdC) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdC) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdC) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdC) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdC) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdC) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdC) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdC) by extension 'ros'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdC) by extensions ['cmake', 'python']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdC) by extension 'cmake'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdC) by extension 'python'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdC) by extensions ['python_setup_py']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdC) by extension 'python_setup_py'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdC/tmp) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdC/tmp) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdC/tmp) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdC/tmp) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'ros'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdC/tmp) by extensions ['cmake', 'python']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'cmake'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'python'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdC/tmp) by extensions ['python_setup_py']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'python_setup_py'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdCXX) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdCXX) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdCXX) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdCXX) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'ros'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdCXX) by extensions ['cmake', 'python']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'cmake'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'python'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdCXX) by extensions ['python_setup_py']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'python_setup_py'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'ros'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extensions ['cmake', 'python']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'cmake'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'python'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extensions ['python_setup_py']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'python_setup_py'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/CMakeTmp) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/CMakeTmp) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/CMakeTmp) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/CMakeTmp) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/CMakeTmp) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/CMakeTmp) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/CMakeTmp) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/CMakeTmp) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/CMakeTmp) by extension 'ros'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/CMakeTmp) by extensions ['cmake', 'python']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/CMakeTmp) by extension 'cmake'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/CMakeTmp) by extension 'python'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/CMakeTmp) by extensions ['python_setup_py']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/build/sbg_driver/CMakeFiles/CMakeTmp) by extension 'python_setup_py'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/imu_tf_broadcaster) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/imu_tf_broadcaster) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/imu_tf_broadcaster) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/imu_tf_broadcaster) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/imu_tf_broadcaster) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/imu_tf_broadcaster) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/imu_tf_broadcaster) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/imu_tf_broadcaster) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/imu_tf_broadcaster) by extension 'ros'
+[0.195s] DEBUG:colcon.colcon_core.package_identification:Package 'sbg_ws/src/imu_tf_broadcaster' with type 'ros.ament_python' and name 'imu_tf_broadcaster'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install) by extension 'ros'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install) by extensions ['cmake', 'python']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install) by extension 'cmake'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install) by extension 'python'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install) by extensions ['python_setup_py']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install) by extension 'python_setup_py'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver) by extension 'ros'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver) by extensions ['cmake', 'python']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver) by extension 'cmake'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver) by extension 'python'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver) by extensions ['python_setup_py']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver) by extension 'python_setup_py'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include) by extension 'ros'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include) by extensions ['cmake', 'python']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include) by extension 'cmake'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include) by extension 'python'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include) by extensions ['python_setup_py']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include) by extension 'python_setup_py'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver) by extension 'ros'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver) by extensions ['cmake', 'python']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver) by extension 'cmake'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver) by extension 'python'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver) by extensions ['python_setup_py']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver) by extension 'python_setup_py'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver) by extension 'ros'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver) by extensions ['cmake', 'python']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver) by extension 'cmake'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver) by extension 'python'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver) by extensions ['python_setup_py']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver) by extension 'python_setup_py'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg) by extension 'ros'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg) by extensions ['cmake', 'python']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg) by extension 'cmake'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg) by extension 'python'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg) by extensions ['python_setup_py']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg) by extension 'python_setup_py'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail) by extension 'ros'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail) by extensions ['cmake', 'python']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail) by extension 'cmake'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail) by extension 'python'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail) by extensions ['python_setup_py']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail) by extension 'python_setup_py'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/dds_fastrtps) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/dds_fastrtps) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/dds_fastrtps) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/dds_fastrtps) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/dds_fastrtps) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/dds_fastrtps) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/dds_fastrtps) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/dds_fastrtps) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/dds_fastrtps) by extension 'ros'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/dds_fastrtps) by extensions ['cmake', 'python']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/dds_fastrtps) by extension 'cmake'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/dds_fastrtps) by extension 'python'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/dds_fastrtps) by extensions ['python_setup_py']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/dds_fastrtps) by extension 'python_setup_py'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/sbg_imu_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/sbg_imu_bridge) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/sbg_imu_bridge) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/sbg_imu_bridge) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/sbg_imu_bridge) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/sbg_imu_bridge) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/sbg_imu_bridge) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/sbg_imu_bridge) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/sbg_imu_bridge) by extension 'ros'
+[0.197s] DEBUG:colcon.colcon_core.package_identification:Package 'sbg_ws/src/sbg_imu_bridge' with type 'ros.ament_python' and name 'sbg_imu_bridge'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/sbg_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/sbg_ros2_driver) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/sbg_ros2_driver) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/sbg_ros2_driver) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/sbg_ros2_driver) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/sbg_ros2_driver) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/sbg_ros2_driver) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/sbg_ros2_driver) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(sbg_ws/src/sbg_ros2_driver) by extension 'ros'
+[0.198s] DEBUG:colcon.colcon_core.package_identification:Package 'sbg_ws/src/sbg_ros2_driver' with type 'ros.ament_cmake' and name 'sbg_driver'
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.209s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sbg_driver' in 'sbg_ws/src/sbg_ros2_driver'
+[0.209s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sbg_imu_bridge' in 'sbg_ws/src/sbg_imu_bridge'
+[0.209s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'imu_tf_broadcaster' in 'sbg_ws/src/imu_tf_broadcaster'
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.210s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/frfusera/ros2_ws/install
+[0.211s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 280 installed packages in /opt/ros/humble
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'nucleus_driver_ros2' build argument 'cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'nucleus_driver_ros2' build argument 'cmake_target' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'nucleus_driver_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'nucleus_driver_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'nucleus_driver_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'nucleus_driver_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'nucleus_driver_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'nucleus_driver_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'nucleus_driver_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.229s] DEBUG:colcon.colcon_core.verb:Building package 'nucleus_driver_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frfusera/ros2_ws/build/nucleus_driver_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frfusera/ros2_ws/install/nucleus_driver_ros2', 'merge_install': False, 'path': '/home/frfusera/ros2_ws/nortek_ws/src/nucleus_driver/ros2', 'symlink_install': True, 'test_result_base': None}
+[0.229s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.230s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.230s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/frfusera/ros2_ws/nortek_ws/src/nucleus_driver/ros2' with build type 'ament_python'
+[0.230s] Level 1:colcon.colcon_core.shell:create_environment_hook('nucleus_driver_ros2', 'ament_prefix_path')
+[0.231s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frfusera/ros2_ws/install/nucleus_driver_ros2/share/nucleus_driver_ros2/hook/ament_prefix_path.ps1'
+[0.232s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/frfusera/ros2_ws/install/nucleus_driver_ros2/share/nucleus_driver_ros2/hook/ament_prefix_path.dsv'
+[0.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frfusera/ros2_ws/install/nucleus_driver_ros2/share/nucleus_driver_ros2/hook/ament_prefix_path.sh'
+[0.232s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.232s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.388s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'nucleus_driver_ros2' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[0.388s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/frfusera/ros2_ws/nortek_ws/src/nucleus_driver/ros2'
+[0.389s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.389s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/frfusera/ros2_ws/build/nucleus_driver_ros2': PYTHONPATH=/home/frfusera/ros2_ws/build/nucleus_driver_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/frfusera/ros2_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/frfusera/ros2_ws/build/nucleus_driver_ros2/build --no-deps symlink_data
+[0.817s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/frfusera/ros2_ws/build/nucleus_driver_ros2' returned '0': PYTHONPATH=/home/frfusera/ros2_ws/build/nucleus_driver_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/frfusera/ros2_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/frfusera/ros2_ws/build/nucleus_driver_ros2/build --no-deps symlink_data
+[0.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('nucleus_driver_ros2', 'pythonpath_develop')
+[0.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frfusera/ros2_ws/build/nucleus_driver_ros2/src/share/nucleus_driver_ros2/hook/pythonpath_develop.ps1'
+[0.819s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/frfusera/ros2_ws/build/nucleus_driver_ros2/src/share/nucleus_driver_ros2/hook/pythonpath_develop.dsv'
+[0.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frfusera/ros2_ws/build/nucleus_driver_ros2/src/share/nucleus_driver_ros2/hook/pythonpath_develop.sh'
+[0.822s] Level 1:colcon.colcon_core.environment:checking '/home/frfusera/ros2_ws/install/nucleus_driver_ros2' for CMake module files
+[0.822s] Level 1:colcon.colcon_core.environment:checking '/home/frfusera/ros2_ws/install/nucleus_driver_ros2' for CMake config files
+[0.823s] Level 1:colcon.colcon_core.environment:checking '/home/frfusera/ros2_ws/install/nucleus_driver_ros2/lib'
+[0.823s] Level 1:colcon.colcon_core.environment:checking '/home/frfusera/ros2_ws/install/nucleus_driver_ros2/bin'
+[0.823s] Level 1:colcon.colcon_core.shell:create_environment_hook('nucleus_driver_ros2', 'path')
+[0.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frfusera/ros2_ws/install/nucleus_driver_ros2/share/nucleus_driver_ros2/hook/path.ps1'
+[0.823s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/frfusera/ros2_ws/install/nucleus_driver_ros2/share/nucleus_driver_ros2/hook/path.dsv'
+[0.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frfusera/ros2_ws/install/nucleus_driver_ros2/share/nucleus_driver_ros2/hook/path.sh'
+[0.824s] Level 1:colcon.colcon_core.environment:checking '/home/frfusera/ros2_ws/install/nucleus_driver_ros2/lib/pkgconfig/nucleus_driver_ros2.pc'
+[0.824s] Level 1:colcon.colcon_core.environment:checking '/home/frfusera/ros2_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages'
+[0.824s] Level 1:colcon.colcon_core.shell:create_environment_hook('nucleus_driver_ros2', 'pythonpath')
+[0.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frfusera/ros2_ws/install/nucleus_driver_ros2/share/nucleus_driver_ros2/hook/pythonpath.ps1'
+[0.825s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/frfusera/ros2_ws/install/nucleus_driver_ros2/share/nucleus_driver_ros2/hook/pythonpath.dsv'
+[0.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frfusera/ros2_ws/install/nucleus_driver_ros2/share/nucleus_driver_ros2/hook/pythonpath.sh'
+[0.826s] Level 1:colcon.colcon_core.environment:checking '/home/frfusera/ros2_ws/install/nucleus_driver_ros2/bin'
+[0.826s] Level 1:colcon.colcon_core.shell:create_environment_hook('nucleus_driver_ros2', 'pythonscriptspath')
+[0.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frfusera/ros2_ws/install/nucleus_driver_ros2/share/nucleus_driver_ros2/hook/pythonscriptspath.ps1'
+[0.827s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/frfusera/ros2_ws/install/nucleus_driver_ros2/share/nucleus_driver_ros2/hook/pythonscriptspath.dsv'
+[0.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frfusera/ros2_ws/install/nucleus_driver_ros2/share/nucleus_driver_ros2/hook/pythonscriptspath.sh'
+[0.827s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nucleus_driver_ros2)
+[0.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/frfusera/ros2_ws/install/nucleus_driver_ros2/share/nucleus_driver_ros2/package.ps1'
+[0.828s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/frfusera/ros2_ws/install/nucleus_driver_ros2/share/nucleus_driver_ros2/package.dsv'
+[0.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/frfusera/ros2_ws/install/nucleus_driver_ros2/share/nucleus_driver_ros2/package.sh'
+[0.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/frfusera/ros2_ws/install/nucleus_driver_ros2/share/nucleus_driver_ros2/package.bash'
+[0.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/frfusera/ros2_ws/install/nucleus_driver_ros2/share/nucleus_driver_ros2/package.zsh'
+[0.830s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/frfusera/ros2_ws/install/nucleus_driver_ros2/share/colcon-core/packages/nucleus_driver_ros2)
+[0.830s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.830s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.830s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.830s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.833s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.833s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.833s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.842s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.842s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/frfusera/ros2_ws/install/local_setup.ps1'
+[0.843s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/frfusera/ros2_ws/install/_local_setup_util_ps1.py'
+[0.845s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/frfusera/ros2_ws/install/setup.ps1'
+[0.845s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/frfusera/ros2_ws/install/local_setup.sh'
+[0.846s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/frfusera/ros2_ws/install/_local_setup_util_sh.py'
+[0.846s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/frfusera/ros2_ws/install/setup.sh'
+[0.847s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/frfusera/ros2_ws/install/local_setup.bash'
+[0.847s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/frfusera/ros2_ws/install/setup.bash'
+[0.847s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/frfusera/ros2_ws/install/local_setup.zsh'
+[0.847s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/frfusera/ros2_ws/install/setup.zsh'

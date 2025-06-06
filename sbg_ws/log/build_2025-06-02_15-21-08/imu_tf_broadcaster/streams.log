@@ -1,0 +1,24 @@
+[0.324s] Invoking command in '/home/frfusera/ros2_ws/sbg_ws/build/imu_tf_broadcaster': AMENT_PREFIX_PATH=/home/frfusera/ros2_ws/sbg_ws/install/sbg_driver:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/frfusera/ros2_ws/sbg_ws/install/sbg_driver:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/frfusera/ros2_ws/sbg_ws/install/sbg_driver/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/frfusera/ros2_ws/sbg_ws/build/imu_tf_broadcaster/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/frfusera/ros2_ws/sbg_ws/install/imu_tf_broadcaster/lib/python3.10/site-packages:/home/frfusera/ros2_ws/sbg_ws/install/sbg_driver/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/frfusera/ros2_ws/sbg_ws/build/imu_tf_broadcaster/build --no-deps symlink_data
+[0.470s] running develop
+[0.551s] running egg_info
+[0.552s] creating imu_tf_broadcaster.egg-info
+[0.552s] writing imu_tf_broadcaster.egg-info/PKG-INFO
+[0.552s] writing dependency_links to imu_tf_broadcaster.egg-info/dependency_links.txt
+[0.552s] writing entry points to imu_tf_broadcaster.egg-info/entry_points.txt
+[0.552s] writing requirements to imu_tf_broadcaster.egg-info/requires.txt
+[0.552s] writing top-level names to imu_tf_broadcaster.egg-info/top_level.txt
+[0.552s] writing manifest file 'imu_tf_broadcaster.egg-info/SOURCES.txt'
+[0.553s] reading manifest file 'imu_tf_broadcaster.egg-info/SOURCES.txt'
+[0.553s] writing manifest file 'imu_tf_broadcaster.egg-info/SOURCES.txt'
+[0.554s] running build_ext
+[0.554s] Creating /home/frfusera/ros2_ws/sbg_ws/install/imu_tf_broadcaster/lib/python3.10/site-packages/imu-tf-broadcaster.egg-link (link to .)
+[0.554s] Installing imu_tf_broadcaster script to /home/frfusera/ros2_ws/sbg_ws/install/imu_tf_broadcaster/lib/imu_tf_broadcaster
+[0.555s] 
+[0.555s] Installed /home/frfusera/ros2_ws/sbg_ws/build/imu_tf_broadcaster
+[0.555s] running symlink_data
+[0.555s] creating /home/frfusera/ros2_ws/sbg_ws/install/imu_tf_broadcaster/share/ament_index
+[0.555s] creating /home/frfusera/ros2_ws/sbg_ws/install/imu_tf_broadcaster/share/ament_index/resource_index
+[0.555s] creating /home/frfusera/ros2_ws/sbg_ws/install/imu_tf_broadcaster/share/ament_index/resource_index/packages
+[0.555s] symbolically linking /home/frfusera/ros2_ws/sbg_ws/build/imu_tf_broadcaster/resource/imu_tf_broadcaster -> /home/frfusera/ros2_ws/sbg_ws/install/imu_tf_broadcaster/share/ament_index/resource_index/packages
+[0.555s] symbolically linking /home/frfusera/ros2_ws/sbg_ws/build/imu_tf_broadcaster/package.xml -> /home/frfusera/ros2_ws/sbg_ws/install/imu_tf_broadcaster/share/imu_tf_broadcaster
+[0.572s] Invoked command in '/home/frfusera/ros2_ws/sbg_ws/build/imu_tf_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/frfusera/ros2_ws/sbg_ws/install/sbg_driver:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/frfusera/ros2_ws/sbg_ws/install/sbg_driver:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/frfusera/ros2_ws/sbg_ws/install/sbg_driver/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/frfusera/ros2_ws/sbg_ws/build/imu_tf_broadcaster/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/frfusera/ros2_ws/sbg_ws/install/imu_tf_broadcaster/lib/python3.10/site-packages:/home/frfusera/ros2_ws/sbg_ws/install/sbg_driver/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/frfusera/ros2_ws/sbg_ws/build/imu_tf_broadcaster/build --no-deps symlink_data

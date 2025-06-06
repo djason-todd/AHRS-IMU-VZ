@@ -1,0 +1,21 @@
+{
+  "package_name": "interfaces",
+  "non_idl_tuples": [
+    "/home/frfusera/ros2_ws/nortek_ws/nucleus_driver_ros2/ros2/src/interfaces:srv/ConnectSerial.srv",
+    "/home/frfusera/ros2_ws/nortek_ws/nucleus_driver_ros2/ros2/src/interfaces:srv/ConnectTcp.srv",
+    "/home/frfusera/ros2_ws/nortek_ws/nucleus_driver_ros2/ros2/src/interfaces:srv/Disconnect.srv",
+    "/home/frfusera/ros2_ws/nortek_ws/nucleus_driver_ros2/ros2/src/interfaces:srv/Start.srv",
+    "/home/frfusera/ros2_ws/nortek_ws/nucleus_driver_ros2/ros2/src/interfaces:srv/StartFieldCalibration.srv",
+    "/home/frfusera/ros2_ws/nortek_ws/nucleus_driver_ros2/ros2/src/interfaces:srv/Stop.srv",
+    "/home/frfusera/ros2_ws/nortek_ws/nucleus_driver_ros2/ros2/src/interfaces:srv/Command.srv",
+    "/home/frfusera/ros2_ws/nortek_ws/nucleus_driver_ros2/ros2/src/interfaces:msg/AHRS.msg",
+    "/home/frfusera/ros2_ws/nortek_ws/nucleus_driver_ros2/ros2/src/interfaces:msg/Altimeter.msg",
+    "/home/frfusera/ros2_ws/nortek_ws/nucleus_driver_ros2/ros2/src/interfaces:msg/BottomTrack.msg",
+    "/home/frfusera/ros2_ws/nortek_ws/nucleus_driver_ros2/ros2/src/interfaces:msg/WaterTrack.msg",
+    "/home/frfusera/ros2_ws/nortek_ws/nucleus_driver_ros2/ros2/src/interfaces:msg/CurrentProfile.msg",
+    "/home/frfusera/ros2_ws/nortek_ws/nucleus_driver_ros2/ros2/src/interfaces:msg/FieldCalibration.msg",
+    "/home/frfusera/ros2_ws/nortek_ws/nucleus_driver_ros2/ros2/src/interfaces:msg/IMU.msg",
+    "/home/frfusera/ros2_ws/nortek_ws/nucleus_driver_ros2/ros2/src/interfaces:msg/INS.msg",
+    "/home/frfusera/ros2_ws/nortek_ws/nucleus_driver_ros2/ros2/src/interfaces:msg/Magnetometer.msg"
+  ]
+}

@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interfaces/srv/ConnectSerial.srv
+// generated code does not contain a copyright notice
+
+
+module interfaces {
+  module srv {
+    struct ConnectSerial_Request {
+      string serial_port;
+    };
+    struct ConnectSerial_Response {
+      boolean status;
+    };
+  };
+};

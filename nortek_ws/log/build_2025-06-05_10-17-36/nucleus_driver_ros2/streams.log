@@ -1,0 +1,40 @@
+[0.356s] Invoking command in '/home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2': AMENT_PREFIX_PATH=/home/frfusera/ros2_ws/nortek_ws/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/frfusera/ros2_ws/nortek_ws/install/interfaces LD_LIBRARY_PATH=/home/frfusera/ros2_ws/nortek_ws/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages:/home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build --no-deps symlink_data
+[0.510s] running develop
+[0.602s] running egg_info
+[0.602s] creating nucleus_driver_ros2.egg-info
+[0.602s] writing nucleus_driver_ros2.egg-info/PKG-INFO
+[0.602s] writing dependency_links to nucleus_driver_ros2.egg-info/dependency_links.txt
+[0.602s] writing entry points to nucleus_driver_ros2.egg-info/entry_points.txt
+[0.602s] writing requirements to nucleus_driver_ros2.egg-info/requires.txt
+[0.602s] writing top-level names to nucleus_driver_ros2.egg-info/top_level.txt
+[0.602s] writing manifest file 'nucleus_driver_ros2.egg-info/SOURCES.txt'
+[0.603s] reading manifest file 'nucleus_driver_ros2.egg-info/SOURCES.txt'
+[0.604s] writing manifest file 'nucleus_driver_ros2.egg-info/SOURCES.txt'
+[0.604s] running build_ext
+[0.605s] Creating /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus-driver-ros2.egg-link (link to .)
+[0.605s] Installing ahrs_packets script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+[0.605s] Installing altimeter_packets script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+[0.605s] Installing bottom_track_packets script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+[0.605s] Installing command script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+[0.605s] Installing connect_serial script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+[0.606s] Installing connect_tcp script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+[0.606s] Installing current_profile_packets script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+[0.606s] Installing disconnect script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+[0.606s] Installing field_calibration script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+[0.606s] Installing field_calibration_packets script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+[0.606s] Installing imu_packets script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+[0.606s] Installing ins_packets script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+[0.606s] Installing magnetometer_packets script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+[0.606s] Installing nucleus_node script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+[0.606s] Installing start script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+[0.606s] Installing stop script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+[0.606s] Installing water_track_packets script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+[0.606s] 
+[0.606s] Installed /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2
+[0.606s] running symlink_data
+[0.606s] creating /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/share/ament_index
+[0.606s] creating /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/share/ament_index/resource_index
+[0.607s] creating /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/share/ament_index/resource_index/packages
+[0.607s] symbolically linking /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/resource/nucleus_driver_ros2 -> /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/share/ament_index/resource_index/packages
+[0.607s] symbolically linking /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/package.xml -> /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/share/nucleus_driver_ros2
+[0.623s] Invoked command in '/home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2' returned '0': AMENT_PREFIX_PATH=/home/frfusera/ros2_ws/nortek_ws/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/frfusera/ros2_ws/nortek_ws/install/interfaces LD_LIBRARY_PATH=/home/frfusera/ros2_ws/nortek_ws/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages:/home/frfusera/ros2_ws/nortek_ws/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build --no-deps symlink_data

@@ -1,0 +1,15 @@
+source;share/nucleus_driver_ros2/hook/path.ps1
+source;share/nucleus_driver_ros2/hook/path.dsv
+source;share/nucleus_driver_ros2/hook/path.sh
+source;share/nucleus_driver_ros2/hook/pythonpath.ps1
+source;share/nucleus_driver_ros2/hook/pythonpath.dsv
+source;share/nucleus_driver_ros2/hook/pythonpath.sh
+source;share/nucleus_driver_ros2/hook/pythonscriptspath.ps1
+source;share/nucleus_driver_ros2/hook/pythonscriptspath.dsv
+source;share/nucleus_driver_ros2/hook/pythonscriptspath.sh
+source;share/nucleus_driver_ros2/hook/ament_prefix_path.ps1
+source;share/nucleus_driver_ros2/hook/ament_prefix_path.dsv
+source;share/nucleus_driver_ros2/hook/ament_prefix_path.sh
+source;../../build/nucleus_driver_ros2/src/share/nucleus_driver_ros2/hook/pythonpath_develop.ps1
+source;../../build/nucleus_driver_ros2/src/share/nucleus_driver_ros2/hook/pythonpath_develop.dsv
+source;../../build/nucleus_driver_ros2/src/share/nucleus_driver_ros2/hook/pythonpath_develop.sh

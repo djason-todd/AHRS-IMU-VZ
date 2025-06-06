@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/sbg_imu_bridge
+sbg_imu_bridge/__init__.py
+sbg_imu_bridge/sbg_imu_bridge.py
+sbg_imu_bridge.egg-info/PKG-INFO
+sbg_imu_bridge.egg-info/SOURCES.txt
+sbg_imu_bridge.egg-info/dependency_links.txt
+sbg_imu_bridge.egg-info/entry_points.txt
+sbg_imu_bridge.egg-info/requires.txt
+sbg_imu_bridge.egg-info/top_level.txt
+sbg_imu_bridge.egg-info/zip-safe

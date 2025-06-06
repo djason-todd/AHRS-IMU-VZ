@@ -1,0 +1,38 @@
+[0.340s] Invoking command in '/home/frfusera/ros2_ws/nortek_ws/nucleus_driver_ros2/ros2/src/nucleus_driver_ros2': PYTHONPATH=/home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/nucleus_driver_ros2 build --build-base /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build install --record /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/install.log --single-version-externally-managed install_data
+[0.466s] running egg_info
+[0.466s] writing ../../../../build/nucleus_driver_ros2/nucleus_driver_ros2.egg-info/PKG-INFO
+[0.467s] writing dependency_links to ../../../../build/nucleus_driver_ros2/nucleus_driver_ros2.egg-info/dependency_links.txt
+[0.467s] writing entry points to ../../../../build/nucleus_driver_ros2/nucleus_driver_ros2.egg-info/entry_points.txt
+[0.467s] writing requirements to ../../../../build/nucleus_driver_ros2/nucleus_driver_ros2.egg-info/requires.txt
+[0.467s] writing top-level names to ../../../../build/nucleus_driver_ros2/nucleus_driver_ros2.egg-info/top_level.txt
+[0.468s] reading manifest file '../../../../build/nucleus_driver_ros2/nucleus_driver_ros2.egg-info/SOURCES.txt'
+[0.468s] writing manifest file '../../../../build/nucleus_driver_ros2/nucleus_driver_ros2.egg-info/SOURCES.txt'
+[0.468s] running build
+[0.468s] running build_py
+[0.469s] running install
+[0.469s] running install_lib
+[0.470s] running install_data
+[0.470s] copying launch/nucleus_with_bag.py -> /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/share/nucleus_driver_ros2/launch
+[0.470s] running install_egg_info
+[0.471s] removing '/home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_driver_ros2-0.2.1-py3.10.egg-info' (and everything under it)
+[0.471s] Copying ../../../../build/nucleus_driver_ros2/nucleus_driver_ros2.egg-info to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages/nucleus_driver_ros2-0.2.1-py3.10.egg-info
+[0.471s] running install_scripts
+[0.482s] Installing ahrs_packets script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+[0.483s] Installing altimeter_packets script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+[0.483s] Installing bottom_track_packets script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+[0.483s] Installing command script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+[0.483s] Installing connect_serial script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+[0.483s] Installing connect_tcp script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+[0.483s] Installing current_profile_packets script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+[0.483s] Installing disconnect script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+[0.483s] Installing field_calibration script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+[0.483s] Installing field_calibration_packets script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+[0.483s] Installing imu_packets script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+[0.483s] Installing ins_packets script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+[0.483s] Installing magnetometer_packets script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+[0.484s] Installing nucleus_node script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+[0.484s] Installing start script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+[0.484s] Installing stop script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+[0.484s] Installing water_track_packets script to /home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/nucleus_driver_ros2
+[0.484s] writing list of installed files to '/home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/install.log'
+[0.497s] Invoked command in '/home/frfusera/ros2_ws/nortek_ws/nucleus_driver_ros2/ros2/src/nucleus_driver_ros2' returned '0': PYTHONPATH=/home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/frfusera/ros2_ws/nortek_ws/install/nucleus_driver_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/nucleus_driver_ros2 build --build-base /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/build install --record /home/frfusera/ros2_ws/nortek_ws/build/nucleus_driver_ros2/install.log --single-version-externally-managed install_data

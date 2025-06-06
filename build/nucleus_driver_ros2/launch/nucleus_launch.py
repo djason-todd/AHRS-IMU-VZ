@@ -1,0 +1,1 @@
+/home/frfusera/ros2_ws/nortek_ws/src/nucleus_driver/ros2/launch/nucleus_launch.py
